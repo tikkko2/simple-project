@@ -1,0 +1,246 @@
+/* ----------------- GENERAL ----------------- */
+.active {
+  background-color: #479b92;
+  color: white;
+}
+header {
+  position: relative;
+  background-color: #479b92;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  color: white;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+header img.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    z-index: 10;
+}
+
+header #search-input {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    outline: none;
+}
+
+header .search-div {
+    position: relative;
+}
+
+header img.search-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .login-link {
+    text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  z-index: 11;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 50px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #479b92;
+  white-space: nowrap;
+}
+
+nav ul li a:hover {
+  background-color: #479b92;
+  color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-top: 2px solid #479b92;
+    margin-top: 40px;
+    color: #479b92;
+    font-size: 18px;
+}
+
+footer ul.icons-ul {
+    display: flex;
+}
+
+footer ul.icons-ul li {
+    margin: 10px 0 10px 10px;
+}
+
+footer .icons-div h1 {
+    text-align: end;
+}
+
+footer ul.icons-ul li a img {
+    width: 40px;
+    border-radius: 5px;
+}
+
+footer ul.about-ul li {
+    margin: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dddddd;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #479b92;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #479b92;
+}
+/* ----------------- GENERAL ----------------- */
+
+
+
+/* ----------------- HOME ----------------- */
+.home img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.collection-container h1 {
+  font-size: 28px;
+  color: #479b92;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.collection-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.collection-flex div {
+  flex: 30%;
+}
+
+.collection-flex div img {
+  max-width: 250px;
+  margin: auto;
+}
+/* ----------------- HOME ----------------- */
+
+
+
+/* ----------------- ABOUT ----------------- */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 10px;
+  gap: 20px;
+}
+.about .about-img {
+  max-width: 900px;
+}
+.about img {
+  width: 100%;
+}
+.about p {
+    font-weight: 600;
+}
+/* ----------------- ABOUT ----------------- */
+
+
+
+/* ----------------- CONTACT ----------------- */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    gap: 100px;
+}
+.contact-container iframe {
+    width: 60vw;
+}
+/* ----------------- CONTACT ----------------- */
+
+
+
+/* ----------------- LOGIN ----------------- */
+.login-form form {
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+.login-form form .form-divs {
+    margin: 20px 0;
+}
+
+.login-form form .form-divs label {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #24524d;
+    font-size: 14px;
+}
+
+.login-form form .form-divs input {
+    border: 1px solid #479b92;
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.login-form form h1 {
+    text-align: center;
+}
+
+.login-form form button {
+    background-color: #479b92;
+    color: white;
+    width: 100%;
+    padding: 14px;
+    margin: 15px 0;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+/* ----------------- LOGIN ----------------- */
+
+
+/* ----------------- GENERAL ----------------- */
+/* ----------------- GENERAL ----------------- */
+/* ----------------- GENERAL ----------------- */
+/* ----------------- GENERAL ----------------- */
+/* ----------------- GENERAL ----------------- */
+/* ----------------- GENERAL ----------------- */
